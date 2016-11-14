@@ -2,50 +2,97 @@
   box-sizing: border-box;
 }
 
+
 .container {
   border-style: solid;
   border-color: rgb(42, 176, 160);
   border-width: 6px;
   overflow: hidden;
   padding-top: 20%;
-  padding-bottom: 20%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-bottom: 20%;*/
+  position: relative;
+  padding-left: 10%;
+  padding-right: 10%;
 }
+
+/*.both {
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}*/
+
 
 .gray {
   background-color: rgb(145, 145, 145);
   color: rgb(139, 79, 167);
   float: left;
-  margin-right: 10px;
-}
-
-.empty {
-  margin: 20px;
-  width: 20px;
+  width: 340px;
+  height: 340px;
+  position: relative;
 }
 
 .lemon {
   background-color: rgb(129, 173, 223);
   border-style: solid;
   border-color: rgb(125, 207, 247);
-  margin: 20px;
+  text-align: center;
+  width: 280px;
+  height: 280px;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
 }
 
 .note {
   background-color: rgb(222, 222, 222);
   border-style: solid;
   border-color: rgb(176, 176, 176);
+  margin: 10px;
+  position: absolute;
 }
 
 .pork {
   border-style: solid;
   border-color: purple;
-  margin-left: 100px;
+  float: right;
+  width: 60%;
+  height: 340px;
+  margin-left: 10px;
+  position: relative;
 }
 
-.abc {
+.abc123 {
   border-bottom: solid;
   border-color: purple;
-
+  color: purple;
 }
+
+span {
+  float: right;
+}
+
+#abc {
+  text-align: center;
+}
+
+#center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 17pt;
+}
+/*.abc{
+  text-align: center;
+}
+
+.123{
+  float: left;
+}*/
